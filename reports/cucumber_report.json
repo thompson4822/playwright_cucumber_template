@@ -1,0 +1,297 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "test-for-demo-site;verify-categories-are-as-expected",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify categories are as expected",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 868753028
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on the 'PRODUCT STORE' page",
+            "match": {
+              "location": "steps/demo_blaze.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27727661
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click categories link",
+            "match": {
+              "location": "steps/demo_blaze.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 105035133
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I see 'Phones', 'Laptops' and 'Monitors' under categories",
+            "match": {
+              "location": "steps/demo_blaze.steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45934296
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 129392429
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@demo",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "test-for-demo-site;verify-products-exist-in-each-category",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Verify products exist in each category",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 882055776
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I am on the 'PRODUCT STORE' page",
+            "match": {
+              "location": "steps/demo_blaze.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22393151
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I choose 'Phones'",
+            "match": {
+              "location": "steps/demo_blaze.steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53823701
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see 'Samsung galaxy s6' in display",
+            "match": {
+              "location": "steps/demo_blaze.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 122896296
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 144989346
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@demo",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "test-for-demo-site;verify-products-exist-in-each-category",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "Verify products exist in each category",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 816060054
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I am on the 'PRODUCT STORE' page",
+            "match": {
+              "location": "steps/demo_blaze.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19126260
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I choose 'Laptops'",
+            "match": {
+              "location": "steps/demo_blaze.steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 119392760
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see 'Sony vaio i5' in display",
+            "match": {
+              "location": "steps/demo_blaze.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 108630525
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 116554419
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@demo",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "test-for-demo-site;verify-products-exist-in-each-category",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "Verify products exist in each category",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 786790233
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I am on the 'PRODUCT STORE' page",
+            "match": {
+              "location": "steps/demo_blaze.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16629189
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I choose 'Monitors'",
+            "match": {
+              "location": "steps/demo_blaze.steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87635653
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see 'Apple monitor 24' in display",
+            "match": {
+              "location": "steps/demo_blaze.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 358113930
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 112960273
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@demo",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-for-demo-site",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Test For Demo Site",
+    "tags": [],
+    "uri": "features/demo_blaze.feature"
+  }
+]
